@@ -177,7 +177,7 @@ export default function App() {
       const response = await fetch('/api/send', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ queueId: selectedQueueId, payload, isBatch }),
+        body: JSON.stringify({ queueId: selectedQueueId, payload: JSON.parse(payload), isBatch }),
       });
       const data = await response.json();
       if (response.ok) {
