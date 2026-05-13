@@ -16,6 +16,7 @@ function cn(...inputs: ClassValue[]) {
 interface QueueOption {
   id: string;
   label: string;
+  queueName: string;
   environment: string;
 }
 
@@ -329,7 +330,7 @@ export default function App() {
                   ) : (
                     queues.map((q) => (
                       <option key={q.id} value={q.id}>
-                        {q.label}{envLabel(q.environment)}
+                        {q.label} ({q.queueName}) {envLabel(q.environment)}
                       </option>
                     ))
                   )}

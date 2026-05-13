@@ -38,6 +38,7 @@ async function startServer() {
     const publicConfigs = QUEUE_CONFIGS.map(q => ({
       id: q.id,
       label: q.label,
+      queueName: q.queueName,
       environment: q.environment,
     }));
     res.json(publicConfigs);
