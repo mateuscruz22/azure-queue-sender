@@ -1,5 +1,0 @@
-{
-  "name": "Azure Queue Sender",
-  "description": "Uma ferramenta simples para enviar payloads JSON ou texto para filas do Azure Storage.",
-  "requestFramePermissions": []
-}
