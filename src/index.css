@@ -6,3 +6,110 @@
   --color-brand: #1b458d;
 }
 
+:root {
+  color-scheme: dark;
+  background: #090d14;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background: #090d14;
+}
+
+html[data-theme="light"],
+html[data-theme="light"] body {
+  color-scheme: light;
+  background: #f7f8fb;
+}
+
+.theme-light {
+  background: #f7f8fb !important;
+  color: #18181b !important;
+}
+
+.theme-light .bg-\[\#090d14\] {
+  background: #f7f8fb !important;
+}
+
+.theme-light .bg-zinc-950,
+.theme-light .bg-zinc-950\/70,
+.theme-light .bg-zinc-950\/50 {
+  background: #ffffff !important;
+}
+
+.theme-light .bg-zinc-900,
+.theme-light .bg-zinc-900\/70,
+.theme-light .hover\:bg-zinc-900:hover,
+.theme-light .hover\:bg-zinc-900\/70:hover {
+  background: #f4f4f5 !important;
+}
+
+.theme-light .bg-zinc-800 {
+  background: #e4e4e7 !important;
+}
+
+.theme-light .border-zinc-900 {
+  border-color: #f4f4f5 !important;
+}
+
+.theme-light .border-zinc-800 {
+  border-color: #e4e4e7 !important;
+}
+
+.theme-light .border-zinc-700 {
+  border-color: #d4d4d8 !important;
+}
+
+.theme-light .text-zinc-50,
+.theme-light .text-zinc-100 {
+  color: #18181b !important;
+}
+
+.theme-light .text-zinc-300 {
+  color: #3f3f46 !important;
+}
+
+.theme-light .text-zinc-400,
+.theme-light .text-zinc-500 {
+  color: #71717a !important;
+}
+
+.theme-light .text-zinc-600 {
+  color: #a1a1aa !important;
+}
+
+.theme-light .text-cyan-100,
+.theme-light .text-cyan-200,
+.theme-light .text-cyan-300 {
+  color: #0e7490 !important;
+}
+
+.theme-light .text-red-100,
+.theme-light .text-red-200,
+.theme-light .text-red-300,
+.theme-light .text-red-400 {
+  color: #b91c1c !important;
+}
+
+.theme-light .text-amber-200 {
+  color: #b45309 !important;
+}
+
+.theme-light .text-emerald-300 {
+  color: #047857 !important;
+}
+
+.theme-light .placeholder\:text-zinc-600::placeholder {
+  color: #a1a1aa !important;
+}
+
+.theme-light .shadow-black\/40,
+.theme-light .shadow-cyan-950\/20,
+.theme-light .shadow-cyan-950\/30,
+.theme-light .shadow-cyan-950\/40,
+.theme-light .shadow-red-950\/20,
+.theme-light .shadow-red-950\/30,
+.theme-light .shadow-red-950\/40 {
+  --tw-shadow-color: rgb(15 23 42 / 0.12) !important;
+}
